@@ -11,6 +11,6 @@ public class WelcomeController {
 
     @GetMapping
     public ResponseEntity<String> welcome(){
-        return ResponseEntity.ok("Welcome to the Spring Boot application by Ankur");
+        return ResponseEntity.ok("Welcome to the Spring Boot application by Ankur with Workflow");
     }
 }
